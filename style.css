@@ -1,0 +1,72 @@
+.s1 {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+
+
+.modal{
+    // padding: 1em;
+    max-width: 50ch;
+    border: 0;
+    box-shadow: 0 0 0.5rem 0;
+
+    & > * {
+        margin: 0 0 0.5rem 0;
+    }
+}
+
+.modal::backdrop {
+    background: linear-gradient(45deg, pink, purple);
+    opacity: .5;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.open-button {
+  background-color: blue;
+  color: white;
+  border: 2px solid blue;
+}
+
+.open-button:hover {
+  background-color: pink;
+  color: white;
+}
+
+.close-button  {
+  background-color: rgb(164,13,20);
+  color: black;
+  border: 2px solid rgb(164,13,20);
+}
+
+.close-button:hover {
+  background-color: rgb(237,28,36);
+  color: white;
+}
+
+.submit-button  {
+  background-color: grey;
+  color: black;
+  border: 2px solid grey;
+}
+
+.submit-button:hover {
+  background-color: black;
+  color: grey;
+}
+
+
+@@f@@@@a@@@i@@@@@l@@@@@@@@@@@@@@
+@@l@@@@@@@@o@@@@@@@@r@@@@@@d@@@@
